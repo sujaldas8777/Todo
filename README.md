@@ -82,12 +82,5 @@ The system will:
 * Verify that database credentials and connection URL are correct.
 * Activate the virtual environment before execution.
 * Ensure all dependencies are installed properly via requirements.txt.
-* If bcrypt compatibility issues occur, run:
-
-```bash
-pip install bcrypt==4.0.1
-pip install passlib[bcrypt]==1.7.4
-```
-
 * Restart the server after updating dependencies.
 * Recreate database tables if schema changes are made.
